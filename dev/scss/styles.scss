@@ -20,28 +20,290 @@ TEMPLATES begin
     
 
 /*-----------------------------------------------------------------------------------
-    1.  GENERAL ELEMENTS
-    2.  GLOBALS
+
+    1.  Title
+    2.  Requirements
+    3.  Content
      
 -----------------------------------------------------------------------------------*/
-/*---------------------------------------------- 
-1. GENERAL ELEMENTS
-------------------------------------------------*/
 
-html{
-    @include scrollbars(0.5em, $black);  
+
+/*
+	___   ___       ___
+	 |  |  |  |    |__
+	 |  |  |  |___ |___
+	
+ */
+
+
+
+.header{
+	h1{
+		margin-right:$gutter;
+	}
+	.number{
+		
+		
+	}
+	.progress{
+		width:20vw;
+		min-width:150px;
+		max-width:300px;
+		margin-right:$gutter / 2;
+		background-color:$white;
+		border:1px solid $gray3;
+		.progress-bar{
+			background-color:$green; 
+
+		}
+	}
+
+	.highlight{
+		color:$green_dark;
+		font:{
+			weight:900;
+		}
+	}
 }
 
-/*---------------------------------------------- 
-2. GLOBALS
-------------------------------------------------*/
 
 
-header{
+/*
+	 __   ___  __          __   ___        ___      ___  __
+	|__) |__  /  \ |  | | |__) |__   |\/| |__  |\ |  |  /__`
+	|  \ |___ \__X \__/ | |  \ |___  |  | |___ | \|  |  .__/
+	
+ */
 
+#requirements{
+	background-color:$gray2;
+	border: 1px solid $gray3; 
+
+	.select-custom{
+		position:relative;
+		&::after{
+	        content: ' ';
+	        position:absolute;
+	        top:15px;
+	        right:15px;
+	        border: solid $gray_body;
+			border-width: 0 1px 1px 0;
+			display: inline-block;
+			padding: 3px;
+			transform: rotate(45deg);
+    	}
+	}
+
+
+	#credits{
+		input{
+			margin-left:$gutter/2;
+			position: relative;
+		    top: -1px;
+		}
+	}
 }
 
 
-footer{
-    
+ /*
+ 	 __   __       ___  ___      ___
+ 	/  ` /  \ |\ |  |  |__  |\ |  |
+ 	\__, \__/ | \|  |  |___ | \|  |
+ 	
+  */
+
+ #content{ 
+
+	.row{
+
+		.card{
+	 		padding: 0;
+	 		border-radius:$border_radius;
+	 		background-color:transparent;
+	 		border:1px solid transparent;
+	 		transition: all 0.3s ease;
+
+	 		&.mouseon{
+	 			background-color:$white;
+	 			border:1px solid $gray3;
+	 			.card-header{
+	 				background-color:$gray2;
+	 				border-bottom:1px solid $gray3;
+	 			}
+	 		}
+
+	 		.card-header{
+	 			background-color:$gray1;
+	 			border-bottom:1px solid transparent;
+	 			h2{
+	 				text-transform:uppercase;
+	 				.detail{
+	 					text-transform:lowercase;
+	 				}
+	 			}
+	 			h6{
+	 				margin-top:5px;
+	 			}
+	 		}
+
+	 		.card-body{
+	 			.card{
+	 				height:50px;
+	 				align-items:center;
+	 				flex-direction:row;
+	 				border-radius:$border_radius;
+	 				background-color:$white;
+	 				border:1px solid $gray3;
+
+	 				.left-color{
+	 					position:relative;
+	 					justify-content: center;
+					    display: flex;
+					    align-items: center;
+					    height:100%;
+					    margin-right:10px;
+					    border-radius: calc(#{$border_radius} - 1px) 0 0 calc(#{$border_radius} - 1px);
+					    button{
+				    	    border: none;
+						    width: 100%;
+						    background: transparent;
+						    height: 100%;
+					    }
+
+					    
+	 				}
+
+	 				.info{
+ 					    width: 100%;
+						padding-right: 20px;
+						.red-circle{
+						    width: 15px;
+						    height: 15px;
+						    background-color:$red;
+						    border:1px solid $red_dark;
+					        margin-right: 0;
+							color:$white;
+							transition: all 0.3s ease;
+					        &:hover{
+					        	background-color:$red_dark;
+								text-decoration:none;
+							}
+					        
+						}
+
+						.tooltip{
+						    background-color: #fff;
+						    width: 100%;
+						    border-radius:$border_radius;
+						    transform: translate(-20px, -70px);
+						    opacity:1;
+					        display: flex;
+					        padding:0;
+					        box-shadow: 1px 2px 5px rgba($gray_body, 0.6);
+							.tooltip-inner{
+								max-width:inherit;
+								background-color:transparent;
+								text-align:left;
+							    display: flex;
+							    padding:0;
+								.left-color{
+									background-color:$red;
+									width:10px;
+								}
+								.tip{
+								    padding: 10px 0;
+								}
+
+								a{
+									font:{
+										weight:700;
+									}
+									color:$blue;
+
+								}
+							}
+
+							.arrow{
+								bottom: -.4rem;
+								right: 27px;
+								&::before{
+								    border-width: .8rem .8rem 0;
+									border-top-color:$white;
+								}
+							}
+						}
+	 				}
+
+	 				i{
+	 					color:white;
+	 					font:{
+	 						size:1.5em;
+	 					}
+	 				}
+
+	 				&.filled{
+	 					.left-color{
+	 						background-color:$green;
+	 						min-width:10px;
+	 						i{
+	 							display:none;
+	 						}
+	 					}
+
+	 				}
+
+	 				&.fill{
+	 					.left-color{
+	 						min-width:40px;
+	 						background-color:$blue;
+	 						transition:all 0.3s ease;
+	 						&:hover{
+					        	background-color:$blue_dark;
+							}
+	 					}
+	 					h4{
+	 						color:$blue;
+	 					}
+	 				}
+	 				&.empty{
+	 					border: 1px dashed $gray3;
+	 					h4{
+	 						padding-left:20px;
+	 						color:$gray_body_light;
+	 					}
+	 				}
+	 			}
+	 		}
+
+
+	 		.card-footer{
+	 			background-color:$blue;
+	 			justify-content:center;
+ 			    display: none;
+ 			    opacity:0;
+ 			    transition: all 0.4s ease;
+ 			    border-radius:0 0 $border_radius $border_radius;
+ 			    padding:$gutter/1.5;
+ 			    a{
+	 			    border:1px solid $blue_dark;
+					border-radius: $border_radius;
+				    padding: 1px;	
+ 			    }
+ 			    
+	 			button{
+	 				background-color:$blue_dark;
+	 				border-radius: $border_radius;
+	 				padding:10px 15px;
+	 			}
+
+	 			&.display{
+	 				display:flex;
+	 			}
+	 			&.display-animate{
+	 				opacity:1;
+	 			}
+	 		}
+ 		}
+	}
+
 }

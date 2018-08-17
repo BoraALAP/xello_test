@@ -20,5 +20,25 @@
   "bugs": {
     "url": "https://github.com/BoraALAP/xello_test/issues"
   },
-  "homepage": "https://github.com/BoraALAP/xello_test#readme"
+  "homepage": "https://github.com/BoraALAP/xello_test#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-livereload": "^3.8.1",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "latest",
+    "gulp-watch-sass": "latest"
+  }
 }

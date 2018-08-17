@@ -1,0 +1,270 @@
+{	
+	"years": {
+		"year_9": [
+			{
+				"course_name": "English",
+				"course_code":"ENG1PI",
+				"course_title": "English 9",
+				"course_credit": "1cr",
+				"tooltip": "",
+				"status": "filled"
+			},
+			{
+				"course_name": "Functions",
+				"course_code":"MAT1U1",
+				"course_title": "Math 9",
+				"course_credit": "1cr",
+				"tooltip": "This course requires a Pre-requisite.",
+				"status": "filled"
+			},
+			{
+				"course_name": "Add Science 9",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": "1cr",
+				"tooltip": " ",
+				"status": "fill"
+			},
+			{
+				"course_name": "Add Geography",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": "1cr",
+				"tooltip": " ",
+				"status": "fill"
+			},
+			{
+				"course_name": "Add French",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": "1cr",
+				"tooltip": " ",
+				"status": "fill"
+			},
+			{
+				"course_name": "Add Elective",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": "16 credits remaining",
+				"tooltip": " ",
+				"status": "fill"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			}
+		],
+		"year_10": [
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			}
+		],
+		"year_11": [
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			}
+		],
+		"year_12": [
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			},
+			{
+				"course_name": " ",
+				"course_code":" ",
+				"course_title": " ",
+				"course_credit": " ",
+				"tooltip": " ",
+				"status": "empty"
+			}
+		]
+	}
+}
+
+

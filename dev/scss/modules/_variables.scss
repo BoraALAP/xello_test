@@ -2,21 +2,25 @@
 
 //colors
 
+$green: #82c31f;
+$green_dark:#44820e;
+$blue: #25afdf;
+$blue_dark: #027baf;
+$red:#ff446c;
+$red_dark:#d23859;
+
+$gray_heading:#484848;
+$gray_body:#7c7c7c;
+$gray_body_light:#bebebf;
+$gray3:#e1e1e1;
+$gray2:#f1f1f1;
+$gray1:#fafafa;
+
 
 $white: #FFFFFF; // White
 $black: #000000; // Black
 
-$gray1: #293234; // light gray	
-$gray2: #404E53; // mid gray
-$gray3: #C7CACB; // darker gray
-
-$brand1: #0d475a; 
-$brand2: #40798C;
-$brand3: #70A9A1;
-$brand4: #CFD7C7;
-$brand5: #F6F1D1;
 
 
-//transition styles
-
-$transition-load: cubic-bezier(0.45, 0.1, 0.02, 1.04);
+$gutter: 30px;
+$border_radius:7.5px;

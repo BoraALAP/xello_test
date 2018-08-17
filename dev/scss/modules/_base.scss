@@ -3,11 +3,16 @@
     -webkit-font-smoothing: antialiased;
 }
 
+html{
+    @include scrollbars(0.5em, $blue);  
+}
+
 body{
     margin:0;
     padding:0;
     width: 100vw;
     overflow-x: hidden;
+    background-color: $gray1;
     font:{
         family:$font1;
     } 
@@ -15,24 +20,25 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
+    margin:0;
 }
 
 h1{
     font:{
         family: $font1;
-        size: 1.6em;
-        weight:900;
+        size: 1.5em;
+        weight:700;
     }
-    color:$brand1;
+    color:$gray_heading;
 }
 
 h2{
     font:{
         family: $font1;
-        size: 1.4em;
+        size: 1.1em;
         weight:700;
     }
-    color:$brand2;
+    color:$gray_heading; 
 }
 
 h3{ 
@@ -41,44 +47,44 @@ h3{
         size: 1em;
         weight:700;
     }
-    color:$brand1;
+    color:$gray_heading;
 }
 
 h4{
     font:{
         family: $font2;
-        size: 0.875em;
-        weight:500;
+        size: 1em;
+        weight:700;
     }
-    color:$brand1;
+    color:$gray_heading;
 }
  
 h5{
     font:{
         family: $font2;
-        size: 0.75em;
-        weight:700;
+        size: 0.925em;
+        weight:400;
     }
-    margin-bottom: 3vh;
-    color:$brand1;
+    color:$gray_heading;
 }
 
 h6{
     font:{
         family: $font2;
-        size: 0.7em;
+        size: 0.875em;
         weight:400;
     }
+    color:$gray_body;
 }
 
 p{ 
     font:{
         family: $font2;
-        size: 0.75em;
+        size: 0.75em; 
         weight:400;
     }
     margin:0;
-    color: $gray1; 
+    color: $gray_body; 
 }
 
 a, button{
@@ -95,7 +101,7 @@ nav{
             size: 1em;
             weight:800;
         }
-        color: $brand1;
+        color: $gray3;
     }
 }
 
@@ -107,8 +113,29 @@ li{
     margin-bottom: 5px;
     list-style: none;
     font:{
-        size:0.875em;
+        size:0.75em;
     }
+}
+
+legend, label{
+    font:{
+        size:0.75em;
+    }
+    color:$gray_body;
+}
+
+select{
+    text-indent:10px;
+    color:$gray_body;
+    font:{
+        size:0.75em;
+    }
+    border:1px solid $gray3;
+    width:20vw;
+    height:40px;
+    min-width:150px;
+    max-width:300px; 
+    appearance:none;
 }
 
 img{
@@ -117,12 +144,14 @@ img{
 .section{
 }
 
-/*******************      Button       ********************/
-button{
-    border:none;
-    background:none;
-    outline: none;
-    color: #fff;
-    background-color: $brand1;
-    padding: 30px 50px;
+.red-circle{
+    background-color:$red_dark;  
+    width:30px;
+    height:30px;
+    color:$white;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    margin-right:$gutter/4;
+    border-radius: 50%;
 }
